@@ -1,0 +1,54 @@
+.homeContainer {
+  background-color: black;
+}
+.bannerSection {
+  background-image: linear-gradient(
+      to top,
+      rgba(1, 11, 25, 1),
+      rgba(1, 11, 25, 0.6)
+    ),
+    url('../../Images/banner.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+.bannerTextContainer {
+  width: 60%;
+}
+.sortButn {
+  background-color: #efcc44;
+  border: none;
+  padding: 2px 16px;
+  color: #010b19;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  border-radius: 8px;
+}
+@media (max-width: 940px) {
+  .listHeading {
+    margin-left: 0rem !important;
+  }
+  .sub20 {
+    font-size: 16px !important;
+    line-height: 28px !important;
+    letter-spacing: 0.2px !important;
+  }
+  .searchContainer {
+    flex-direction: column !important;
+  }
+  .searchContainer Button {
+    margin-top: 20px;
+    margin-left: 0 !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .sub20 {
+    font-size: 12px !important;
+    line-height: 20px !important;
+  }
+  .white30 {
+    font-size: 22px !important;
+  }
+}

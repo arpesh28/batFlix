@@ -1,0 +1,83 @@
+.moviePoster {
+  /* width: 90%; */
+  height: 25vh;
+  width: auto;
+}
+.movieCard {
+  margin: 20px;
+  border-radius: 30px;
+}
+.movieCard img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  /* border: 2px solid white; */
+  transition: all 0.4s ease-in-out;
+  box-shadow: 9px 16px 16px 6px #01010485;
+  filter: brightness(1.2);
+}
+.movieCard img {
+  border-radius: 10px;
+  box-shadow: 6px 12px 9px 4px #01010447;
+  transition: all 0.4s ease-in-out;
+  border-radius: 30px;
+  border: 0px;
+}
+
+.movieCard2 {
+  margin: 20px;
+  transition: all 0.4s ease-in-out;
+  position: relative;
+}
+.cardoverlay {
+  pointer-events: auto;
+  border-radius: 6px;
+}
+.movieCard2:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  filter: brightness(1.3);
+}
+.movieCard2 img {
+  border-radius: 6px;
+}
+.moviePoster2 {
+  height: 15vh;
+  width: auto;
+  border-radius: 6px;
+  transition: 0.4s ease-in-out;
+}
+.cardText {
+  position: absolute;
+  bottom: 15px;
+  left: 10px;
+}
+.cardText h3 {
+  font-size: 16px;
+}
+.cardoverlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1));
+}
+.likes img,
+.popular img {
+  height: 16px;
+}
+.likes h4,
+.popular h4 {
+  margin-left: 10px;
+}
+.popular {
+  margin-left: 30px;
+}
+
+@media (max-width: 576px) {
+  .moviePoster {
+  }
+  .moviePoster2 {
+    height: 20vh;
+  }
+}

@@ -1,0 +1,12 @@
+.loadmore {
+    background-color: transparent;
+    border: 2px solid #deb141;
+    width: 100px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+.loadmore:active, .loadmore:focus {
+    background-color: transparent!important;
+    border: 2px solid #deb141;
+    box-shadow: none!important;
+}

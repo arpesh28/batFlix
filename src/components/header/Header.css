@@ -1,0 +1,9 @@
+.header {
+    background:linear-gradient( to bottom, rgba(13, 15, 17,1), rgba(13, 15, 17, 0))!important;
+    position: absolute;
+    width: 100%;
+}
+.logo h2{
+    margin-left: 15px!important;
+    margin-bottom: 0px;
+}
